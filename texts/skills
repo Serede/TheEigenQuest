@@ -1,0 +1,39 @@
+SHOOT;Shoots a basic projectile to the enemy;0;20;0;100;0;40
+MAKE;Compiles and builds to make your attacks stronger;1;0;3;0;100;10
+WATER SPRAY;Elemental damage that may make the enemy weak;0;15;1;80;45;25
+FLASH;Brightens your gun to leave the enemy blind;0;0;5;0;85;15
+LASER SORT;Elemental damage that may make the enemy vulnerable;0;40;2;90;40;25
+DERIVE;Reduces the enemy to a simpler curve and makes him vulnerable;0;0;2;0;100;10
+CURE;Has a chance to cure your states;1;0;9;0;70;5
+PHASOR SHIELD;Raises your defense via phasor transformation;1;0;4;0;100;10
+TRANSISTOR SHOT;Amplifies the voltage of your gun for a stronger strike;0;70;8;75;100;10
+HEAL;Retrieves a little bit of health;1;-35;9;100;15;6
+AWKWARD DAMAGE;Makes the enemy stagger and his attacks go weaker;0;50;1;100;100;10
+VODKA THROW;Poisons the enemy with super strong vodka taken from the URSS Forces;0;15;6;75;100;6
+COFFEE TIME;It's time for a coffee break to recover a great amount of health;1;-350;9;100;0;1
+OVERTHROW;A super powerful algebra strike that may kill the enemy instantly;0;450;0;90;0;1
+DRUMS SOLO;Dr. Biliar's skill;0;10;0;75;0;99
+BILIARSORT;Dr. Biliar's skill;0;0;7;0;100;99
+SUMMON CAITLYN;Dr. Biliar's skill;0;30;0;80;0;99
+ABANDON THREAD;Dr. Biliar's skill;1;0;7;0;100;99
+EXTRA CREDIT;Electric Cyclops's skill;0;30;2;70;70;99
+SOLAR CELL;Electric Cyclops's skill;1;0;3;0;100;99
+VOLTAGE DIVIDER;Electric Cyclops's skill;0;0;1;0;80;99
+CIREL MARKS;Electric Cyclops's skill;0;100;7;95;0;99
+ENGLISH;Electric Cyclops's skill;1;0;3;0;100;99
+CRAB DANCE;Ironman's skill;1;0;3;0;100;99
+CONGRUENCES;Ironman's skill;0;40;0;65;0;99
+LATEX SUIT;Ironman's skill;0;0;6;0;90;99
+MOODLE DDOS;Ironman's skill;0;30;0;100;0;99
+CALL URSS FORCES;Ironman's skill;0;10;4;100;100;99
+SAGE AND DESTROY;Ironman's skill;1;20;3;100;100;99
+BARBEQUE;Cuervs's skill;1;0;4;0;100;99
+WICKED LAUGHTER;Cuervs's skill;1;0;3;0;100;99
+MELON HIT;Cuervs's skill;0;30;6;50;50;99
+DONT GO TO SLEEP;Cuervs's skill;1;0;7;0;50;99
+AURUM NUMBER;Cuervs's skill;0;20;1;100;50;99
+DIFF EQUATIONS;Cuervs's skill;0;70;7;30;100;99
+OBSCURE SLIDES;Cuervs's skill;0;0;5;0;100;99
+SUMMON KRULL;Cuervs's skill;0;10;0;100;0;99
+SUMMON LUISDEVIL;Cuervs's skill;0;0;2;0;70;99
+JORDAN WEAPON;Cuervs's skill;0;150;0;90;0;99
