@@ -3,10 +3,14 @@ The Eigen Quest is a platform and turn-based combat game based on ncurses, inspi
 
 # Contributors
 Serede Sixty Six
+
 Daniel Perdices
+
 Tormenta Sáinz de Medrano
 
 # Notes
 Mind development versions of ncursesw and menuw libraries dependencies.
+
 In some systems, instead of menu.h, ncurses/menu.h must be included.
+
 Enjoy!
