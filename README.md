@@ -4,7 +4,7 @@ The Eigen Quest is a platform and turn-based combat game based on ncurses, inspi
 # Contributors
 Serede Sixty Six
 
-Daniel Perdices
+[Daniel Perdices](https://github.com/darktris)
 
 Tormenta Sáinz de Medrano
 
