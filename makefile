@@ -2,9 +2,6 @@ CC = gcc
 CFLAGS = -std=gnu99 -I$(IDIR) -g
 LDFLAGS = -lncursesw -lmenuw -lpthread -lrt
 
-EPS_LDFLAGS = -lpthread -lrt
-EPS_LIBS = /lib/i386-linux-gnu/libncursesw.so.5.9 /usr/lib/i386-linux-gnu/libmenuw.so.5.9
-
 SDIR = src
 IDIR = include
 ODIR = src/obj
@@ -24,10 +21,15 @@ $(ODIR)/%.o: $(SDIR)/%.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
 $(BIN):%: $(OBJ)
-	$(CC) -o $@ $^ $(CFLAGS) $(LDFLAGS)
+	$(CC) -o $@ $^ $(CFLAGS) $(LIBS) $(LDFLAGS)
 
-eps: $(OBJ)
-	$(CC) -o $(BIN) $^ $(EPS_LIBS) $(EPS_LDFLAGS)
+eps: LDFLAGS = -lpthread -lrt
+eps: LIBS = /lib/i386-linux-gnu/libncursesw.so.5.9 /usr/lib/i386-linux-gnu/libmenuw.so.5.9
+eps: $(BIN)
+
+osx: CFLAGS += -DCOMPILING_ON_OSX=1
+osx: LDFLAGS = -lncurses -lmenu -lpthread
+osx: $(BIN)
 
 play_tuto:
 	$(BIN) TUTO
