@@ -24,4 +24,20 @@ typedef enum {BASIC=0, WATER, FIRE, LIGHT} element;
 typedef enum {TUTO=0, LVL1, LVL2, LVL3, LVL4} level;
 typedef enum {BILIAR=0, CYCLOPS, IRONMAN, CUERVS} stage;
 
+#ifdef COMPILING_ON_OSX
+// Code taken from:  http://stackoverflow.com/a/9781275/3080396
+
+#include <sys/time.h>
+#define CLOCK_REALTIME (0)
+
+static int clock_gettime(int clk_id, struct timespec* t) {
+    struct timeval now;
+    int rv = gettimeofday(&now, NULL);
+    if (rv) return rv;
+    t->tv_sec  = now.tv_sec;
+    t->tv_nsec = now.tv_usec * 1000;
+    return 0;
+}
+#endif
+
 #endif
